@@ -4,7 +4,7 @@ class raichu extends pichu{
     super(x,y,bodyColor,cheeksColor);
     this.name = name;
   }
-  void show(){
+  void drawEar(){
     textSize(20);
     fill(0);
     textAlign(CENTER);
