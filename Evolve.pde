@@ -60,7 +60,7 @@ class pichu {
     arc(x - 10, y + 10, 30, 20, radians(40), radians(140));
     arc(x + 10, y + 10, 30, 20, radians(40), radians(140)); 
   }
-  void show(){};
+
 }
 pichu[] b;
 void setup() {
