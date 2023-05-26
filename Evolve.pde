@@ -60,7 +60,6 @@ class pichu {
     arc(x - 10, y + 10, 30, 20, radians(40), radians(140));
     arc(x + 10, y + 10, 30, 20, radians(40), radians(140)); 
   }
-  void show(){};
 }
 pikachu[] a;
 raichu[] b;
@@ -69,12 +68,12 @@ void setup() {
   a = new pikachu[2];
   a[0] = new pikachu(600, 300, "yellow" , "red", "pikachu1");
   a[1] = new pikachu(600, 600, "yellow" , "red", "pikachu2");
-  for(int i = 0; i < 2; i++){a[i].show();}
+  for(int i = 0; i < 2; i++){a[i].drawTail();}
 
   b = new raichu[2];
   b[0] = new raichu(900, 300, "orange" , "yellow", "raichu1");
   b[1] = new raichu(900, 600, "orange" , "yellow", "raichu2");
-  for(int i = 0; i < 2; i++){b[i].show();}
+  for(int i = 0; i < 2; i++){b[i].drawEar();}
   pichu c = new pichu( 300,300,"lightyellow", "pink");
   c.drawFace();
 }
