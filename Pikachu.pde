@@ -6,7 +6,7 @@ class pikachu extends pichu {
     this.name = name;
   }
   
-  void show(){
+  void drawTail(){
     drawFace();
     
     // Display name
